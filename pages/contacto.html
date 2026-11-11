@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacta con Ashley's Studio para resolver tus dudas sobre el cuidado de la piel.">
+    <title>Contacto | Ashley's Studio</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Ashley's Studio</h1>
+        <p>Tu espacio para cuidar y conocer tu piel</p>
+
+        <nav class="navegacion">
+            <a href="../index.html">Inicio</a>
+            <a href="rutinas.html">Rutinas</a>
+            <a href="tipos-piel.html">Tipos de piel</a>
+            <a href="ingredientes.html">Ingredientes</a>
+            <a href="consejos.html">Consejos</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Contacta con nosotras</h2>
+            <p>
+                ¿Tienes alguna duda sobre el cuidado de tu piel?
+                ¿Necesitas ayuda para elegir una rutina o conocer algún ingrediente?
+                Rellena el siguiente formulario y cuéntanos qué necesitas.
+            </p>
+        </section>
+        <div class="datos-contacto">
+    <p><strong>Correo electrónico:</strong>
+        <a href="mailto:contacto@ashleysstudio.com">contacto@ashleysstudio.com</a>
+    </p>
+
+    <p><strong>Teléfono:</strong>
+        <a href="tel:+34600000000">600 000 000</a>
+    </p>
+        </div>
+
+        <section>
+            <h2>Formulario de contacto</h2>
+
+            <form action="#" method="post">
+
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="motivo">Motivo de la consulta:</label>
+                <select id="motivo" name="motivo" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="rutina">Rutina facial</option>
+                    <option value="productos">Productos</option>
+                    <option value="ingredientes">Ingredientes</option>
+                    <option value="otros">Otros</option>
+                </select>
+
+                <p>¿Sobre qué tipo de piel necesitas información?</p>
+
+                <input type="radio" id="seca" name="tipo-piel" value="seca">
+                <label for="seca">Piel seca</label>
+
+                <input type="radio" id="grasa" name="tipo-piel" value="grasa">
+                <label for="grasa">Piel grasa</label>
+
+                <input type="radio" id="mixta" name="tipo-piel" value="mixta">
+                <label for="mixta">Piel mixta</label>
+
+                <input type="radio" id="sensible" name="tipo-piel" value="sensible">
+                <label for="sensible">Piel sensible</label>
+
+                <label for="mensaje">Escribe tu consulta:</label>
+                <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+
+                <button type="submit">Enviar consulta</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ashley's Studio. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
